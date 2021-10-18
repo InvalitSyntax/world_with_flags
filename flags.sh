@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 #pip install pyzbar
-git remote add InvalitSyntax https://github.com/InvalitSyntax/clover.git
+git clean -df
+git checkout -- .
+git remote add timkondratiev https://github.com/timkondratiev/clover.git
